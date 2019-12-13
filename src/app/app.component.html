@@ -1,0 +1,11 @@
+<h2>Lista de Categorias</h2>
+
+<ul *ngIf="categorias">
+  <li *ngFor="let categoria of categorias">{{categoria}}</li>
+</ul>
+
+<h2> Camarero</h2>
+<div *ngIf="camarero">
+  <p>{{camarero.codigo}}</p>
+  <p>{{camarero.nombre}}</p>
+</div>
